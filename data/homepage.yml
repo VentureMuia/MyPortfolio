@@ -1,0 +1,210 @@
+head:
+  title: "Bonaventure Muia's Data Science Portfolio"
+
+# showcase
+showcase:
+  enable: true
+  title: "Hello, I’m Bonaventure Muia."
+  subtitle: "Data Scientist"
+  description: "Muia is passionate about data,solid scientific programming and team leadership skills."
+                
+  image:
+    x: "img/showcase/data-science.gif"
+    _2x: "img/showcase/data-science.gif"
+  imageMobile:
+    x: "img/showcase/data-science.gif"
+    _2x: "img/showcase/data-science.gif"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact Muia"
+    URL: "mailto:venturemuia@gmail.com"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/bonaventure-muia"
+
+    - icon: "github"
+      URL: "https://github.com/kisoibo"
+
+    - icon: "twitter"
+      URL: "https://twitter.com/Venture_Muia"
+    - icon: "youtube"
+      URL: "https://www.youtube.com/channel/UC0ZzIXU3DusdhLIzRggn75A/videos"
+      
+    - icon: "facebook"
+      URL: "https://www.facebook.com/bonaventure.kisoi"
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: 
+    <p class="lead">
+    <strong>I help companies interpret, manage data and solve complex problems using expertise in a variety of data niches.</strong> My passion is problem solving. But,  I enjoy vacationing with my family and friends. 
+    </p>
+    <p class="lead">
+    <strong>My area of focus</strong> is applying data science to business. 
+    I create value for companies by understanding the financial
+    cost of problems and delivering a return-on-investment with my solutions. 
+    I enjoy learning, working with stakeholders, and making better decisions with data.
+    </p>
+  button:
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: "https://www.linkedin.com/in/bonaventure-muia"
+  image:
+    x: "img/who-am-i/muia.jpg"
+    _2x: "img/who-am-i/Muia.jpg"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: "Over 7+ years of experience working with companies from all over the world. I design & develop data science products to help businesses increase profitability and improve customer experience."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/bonaventure-muia"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "/cv/resume-muia.pdf"
+
+  items:
+    - title: "Data Science Trainer"
+      company: "NIIT Kenya"
+      duration: "October 2020 - Present"
+      
+    - title: "Data Scientist"
+      company: "China Gezhouba Group Company"
+      duration: "Nov 2018 - October 2020"
+      
+    - title: "Data Scientist"
+      company: "Laterite Kenya Limited"
+      duration: "May 2017 - October 2018"
+      
+    - title: "Research Assistant"
+      company: "Aims Research"
+      duration: "Dec 2015 - April 2017"
+    
+    
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "University of Eldoret"
+      year: "2011-2015"
+      degree: "Bachelor of Science in Applied Statistics with Computing"
+
+    
+# Client & Work
+client_and_work:
+  title: "Portfolio"
+  enable: true
+  
+  enable_clients: false
+  clients:
+    - logo:
+        x: "img/clients/asgardia.png"
+        _2x: "img/clients/asgardia@2x.png"
+      alt: "Asgardia"
+
+    - logo:
+        x: "img/clients/earth-2.png"
+        _2x: "img/clients/earth-2@2x.png"
+      alt: "Earth 2.0"
+
+    - logo:
+        x: "img/clients/goldline.png"
+        _2x: "img/clients/goldline@2x.png"
+      alt: "Goldline"
+
+    - logo:
+        x: "img/clients/kanba.png"
+        _2x: "img/clients/kanba@2x.png"
+      alt: "Kanba"
+
+    - logo:
+        x: "img/clients/zoo-tv.png"
+        _2x: "img/clients/zoo-tv@2x.png"
+      alt: "Zoo"
+
+    - logo:
+        x: "img/clients/ztos.png"
+        _2x: "img/clients/ztos@2x.png"
+      alt: "Ztos"
+
+  works:
+    - title: "Insurance Application"
+      description: "The goal of this project was to build a dashboard that one can view insurance claims at different points in time. Filter claims by state and claim status. Analyze frequency, severity, and changes in claim values over time. Download the claims for further analysis on your computer."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Launch Application"
+        URL: "https://venturemuia.shinyapps.io/basic-insurer-dashboard/"
+      image:
+        x: "img/works/claims.jpg"
+        _2x: "img/works/claims.jpg"
+      is_even: true
+
+    - title: "Yahoo Stock Application"
+      description: "Developed an app that fetches stock data from yahoo. Uses Facebook Prophet algorithm to predict the closing value of those stocks in the future."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Launch Application"
+        URL: "https://venturemuia.shinyapps.io/Stock_App/"
+      image:
+        x: "img/works/yahoo.png"
+        _2x: "img/works/yahoo.png"
+      is_even: false
+      
+    - title: "Medicare Application"
+      description: "Interactive app for exploring average Medicare claim costs across the United States"
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Launch Application"
+        URL: "https://venturemuia.shinyapps.io/Stock_App/"
+      image:
+        x: "img/works/medicare.png"
+        _2x: "img/works/medicare.png"
+      is_even: false
+
+
+    
+
+# testimonial
+testimonial:
+  enable: true
+  title: "Testimonials"
+  items:
+  
+    - name: "Rose Kyalo"
+      position: "Chief Human Resource Manager, China Gezhouba Group Company"
+      content: "I am pleased to recommend Bonaventure Muia for the role of Data Scientist. Have worked with Bonaventure  as his HR manager for  two years at China Gezhouba Group Company Ltd. Each passing day his passion for what he did amazed me. He reliable, aggressive, goal oriented and fun to work with. If you need any experienced and knowledgeable  team player with a can-do attitude, who can move your organization to new heights, then i could not be happier to recommend Bonaventure."
+      image:
+        x: "img/testimonials/rose.png"
+        _2x: "img/testimonials/rose.png"
+        
+  
+# contact
+contact:
+  enable: true
+  title: "Contact Muia"
+    
+  image:
+    x: "img/who-am-i/muia.jpg"
+    _2x: "img/who-am-i/muia.jpg"
+    
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+    btnAction: 'mailto:venturemuia@gmail.com'
+    
+  phone:
+    title: "Phone Number"
+    number: "+254 703 555 259"
+  email:
+    title: "Email"
+    email: '<a href="mailto:venturemuia@gmail.com">venturemuia@gmail.com</a>'
+  
